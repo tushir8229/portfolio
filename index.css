@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+
+
+}
+.navlist a:hover{
+    color: #5db9ee;
+    transition: 0.3s ease-in;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.left-container,
+.right-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.left-container {
+    background-color: #282626;
+    width: 70%;
+}
+
+.right-container {
+    background: linear-gradient(-45deg, #3877ff, #282626 70%);
+    width: 30%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.icons a {
+    color: #bbb;
+}
+
+.content {
+    color: white;
+    margin-left: 70px;
+
+}
+
+.my-name {
+    font-size: 1.2rem;
+}
+
+span {
+    color: #5db9ee;
+}
+
+h1 {color:#5db9ee
+    ;
+    font-size: 3rem;}
+
+    p{line-height: 35px;}
+
+    button{
+        margin-top: 15px;
+        font-size: 18px;
+        transition: .6s;
+    }
+    .first{
+        border: .2px solid #5db9ee;
+        background-color: #5db9ee;
+        margin-right: 25px;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+    }
+    .second{
+        background-color: transparent;
+        border-radius: 7px;
+        width: 170px;
+        height: 35px;
+        color: #5db9ee;
+        border: .2px solid #5db9ee;
+    }
+
+    
+    
+   .first a{text-decoration: none;
+    color:#282626;
+    }
+    .second a{
+        text-decoration: none;
+       color: #5db9ee; 
+    }
+    .first:hover{
+        background: white;
+        
+    }
+  
+
+    .second:hover{
+        background:white ;
+        color:#5db9ee;
+    }
+        .design .circle{
+            aspect-ratio: 1;
+            position: absolute;
+            border-radius: 50%;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+
+        }
+        
+        .circle:nth-child(1){
+            background:linear-gradient(90deg, transparent 50%, #282626 50%);
+            width: 38rem;
+        }
+        .circle:nth-child(2){
+            background-image: url(sagar-tushir.jpg);
+            background-size: 100%;
+            width: 30rem;
+            box-shadow: 0 0 4rem #fff;
+            border: .1rem solid white; }
